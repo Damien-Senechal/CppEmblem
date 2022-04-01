@@ -4,6 +4,7 @@ Point::Point()
 {
 	setX(0);
 	setY(0);
+	setValue('.');
 }
 
 Point::Point(int x, int y)
@@ -12,12 +13,19 @@ Point::Point(int x, int y)
 	setY(y);
 }
 
-Point Point::operator+(Point other)
+Point::Point(int x, int y, char v)
+{
+	setX(x);
+	setY(y);
+	setValue(v);
+}
+
+Point Point::operator+(Point& other)
 {
 	return Point(getX() + other.getX(), getY() + other.getY());
 }
 
-Point Point::operator-(Point other)
+Point Point::operator-(Point& other)
 {
 	return Point(getX() - other.getX(), getY() - other.getY());
 }
