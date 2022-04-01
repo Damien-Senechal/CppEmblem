@@ -1,4 +1,10 @@
 #pragma once
+
+#include<string>
+#include<iostream>
+
+using namespace std;
+
 class Point
 {
 protected:
@@ -26,5 +32,10 @@ public:
 	Point operator-(Point other);
 	bool operator==(Point other);
 	bool operator!=(Point other);
+
+	bool Equals(Point other);
+	int GetHashCode();
+
+	string ToString();
 };
 

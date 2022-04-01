@@ -31,3 +31,24 @@ bool Point::operator!=(Point other)
 {
 	return getX() != other.getX() && getY() != other.getY();
 }
+
+bool Point::Equals(Point other)
+{
+	return getX() == other.getX() && getY() == other.getY();
+}
+
+int Point::GetHashCode()
+{
+	return getX()^getY();
+}
+
+string Point::ToString()
+{
+	string temp;
+	temp += "([";
+	temp += to_string(getX());
+	temp += "],[";
+	temp += to_string(getY());
+	temp += "])";
+	return temp;
+}

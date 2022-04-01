@@ -1,8 +1,9 @@
 #include"Point.h"
-#include<iostream>
 
 using namespace std;
 
-int main() {
-
+int main() 
+{
+	Point p = Point(3, 4);
+	cout << p.ToString();
 }
