@@ -1,6 +1,14 @@
-﻿  Board.cpp
+﻿  BattleController.cpp
+  Board.cpp
+C:\Users\Utilisateur\Documents\GitHub\CppEmblem\CppEmblem\CppEmblem\Board.cpp(14,45): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\Documents\GitHub\CppEmblem\CppEmblem\CppEmblem\Board.cpp(15,49): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\Documents\GitHub\CppEmblem\CppEmblem\CppEmblem\Board.cpp(22,45): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\Documents\GitHub\CppEmblem\CppEmblem\CppEmblem\Board.cpp(23,49): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
   LevelData.cpp
   Point.cpp
   Source.cpp
+  State.cpp
+  StateMachine.cpp
   Génération de code en cours...
-  CppEmblem.vcxproj -> C:\Users\GAME1\Documents\GitHub\CppEmblem\CppEmblem\x64\Debug\CppEmblem.exe
+  LINK : C:\Users\Utilisateur\Documents\GitHub\CppEmblem\CppEmblem\x64\Debug\CppEmblem.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+  CppEmblem.vcxproj -> C:\Users\Utilisateur\Documents\GitHub\CppEmblem\CppEmblem\x64\Debug\CppEmblem.exe

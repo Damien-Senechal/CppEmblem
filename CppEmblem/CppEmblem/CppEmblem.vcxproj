@@ -139,15 +139,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aStar.cpp" />
+    <ClCompile Include="BattleController.cpp" />
+    <ClCompile Include="BattleState.cpp" />
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="LevelData.cpp" />
+    <ClCompile Include="Node.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="aStar.h" />
+    <ClInclude Include="BattleController.h" />
+    <ClInclude Include="BattleState.h" />
     <ClInclude Include="Board.h" />
     <ClInclude Include="LevelData.h" />
+    <ClInclude Include="Node.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateMachine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
