@@ -30,5 +30,6 @@ public:
 	int getFValue() const;
 
 	void calculateFValue(const Location& locDest);
+	void updateGValue(const int& i);
 };
 

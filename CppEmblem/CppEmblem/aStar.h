@@ -19,7 +19,5 @@ protected:
 	vector<vector<int>> closedNodes;
 	vector<vector<int>> openNodes;
 	vector<vector<int>> dirMap;
-
-public:
 };
 
